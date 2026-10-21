@@ -1,7 +1,7 @@
 /* my styles for the verity page */
 
 body {
-  background-color: #ffe6f2;
+  background-color: #fff59d;
   font-family: Arial, sans-serif;
   color: #333333;
   text-align: center;
@@ -9,16 +9,16 @@ body {
 }
 
 h1 {
-  color: purple;
+  color: #d32f2f;
 }
 
 /* i added h1 again by accident */
 h1 {
-  font-family: "Baloo 2", Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 h2 {
-  color: #6a1b9a;
+  color: #1565c0;
 }
 
 p {
@@ -54,18 +54,18 @@ a:hover {
 
 /* the 3 story paragraphs all look diffrent */
 .story1 {
-  background-color: #e8d8ff;
+  background-color: #ffcdd2;
   padding: 12px;
-  border-left: 6px solid purple;
+  border-left: 6px solid red;
   text-align: left;
   max-width: 650px;
   margin: 12px auto;
 }
 
 .story2 {
-  background-color: #fff6cc;
+  background-color: #c8e6c9;
   padding: 12px;
-  border: 2px dotted purple;
+  border: 2px dotted green;
   font-style: italic;
   text-align: left;
   max-width: 650px;
@@ -73,7 +73,7 @@ a:hover {
 }
 
 .story3 {
-  background-color: #ffd6e8;
+  background-color: #f8bbd0;
   padding: 12px;
   font-weight: bold;
   text-align: left;
@@ -99,7 +99,7 @@ th {
 }
 
 tr:hover {
-  background-color: #f3e6ff;
+  background-color: #fff9c4;
 }
 
 img {
@@ -108,7 +108,7 @@ img {
 }
 
 button {
-  background-color: purple;
+  background-color: #e91e63;
   color: white;
   border: none;
   padding: 10px 18px;
@@ -118,11 +118,11 @@ button {
 }
 
 button:hover {
-  background-color: hotpink;
+  background-color: red;
 }
 
 .btn {
-  background-color: purple;
+  background-color: #e91e63;
   color: white;
   padding: 10px 18px;
   border-radius: 8px;
@@ -131,7 +131,7 @@ button:hover {
 }
 
 .btn:hover {
-  background-color: hotpink;
+  background-color: red;
   color: white;
 }
 
