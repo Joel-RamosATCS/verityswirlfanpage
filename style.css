@@ -150,6 +150,38 @@ footer {
   font-weight: bold;
 }
 
+/* blinking new text */
+.blink {
+  animation: blink 1s step-start infinite;
+  font-weight: bold;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.badge {
+  display: inline-block;
+  background-color: black;
+  color: #00ff00;
+  border: 2px solid gray;
+  padding: 4px 8px;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+blockquote {
+  background-color: #00ffff;
+  border: 2px dashed black;
+  padding: 10px;
+  max-width: 500px;
+  margin: 15px auto;
+  font-style: italic;
+  text-align: left;
+}
+
 /* small screens */
 @media (max-width: 700px) {
   h1 {

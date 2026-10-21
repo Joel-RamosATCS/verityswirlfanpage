@@ -15,3 +15,13 @@ function askVerity() {
   var pick = Math.floor(Math.random() * answers.length);
   document.getElementById("answer").innerHTML = answers[pick];
 }
+
+// fake visitor counter
+var hits = document.getElementById("hits");
+
+if (hits) {
+  var count = Number(localStorage.getItem("verityHits"));
+  count = count + 1;
+  localStorage.setItem("verityHits", count);
+  hits.innerHTML = count;
+}
